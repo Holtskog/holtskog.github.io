@@ -1,0 +1,16 @@
+<svg id="VinoDevIcon_Mini" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="600" height="300" viewBox="0 0 600 300">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#5fcced"/>
+      <stop offset="1" stop-color="#a849d8"/>
+    </linearGradient>
+  </defs>
+  <path id="Path_9" data-name="Path 9" class="cls-1" d="M156.224,16.6,46.273,166.6H5l109.951-150L5-133.4H46.273Z" transform="translate(443.776 133.4)"/>
+  <path id="Path_10" data-name="Path 10" class="cls-1" d="M151.224,150,41.273,300H0L109.951,150,0,0H41.273Z" transform="translate(151.224 300) rotate(180)"/>
+  <path id="Path_11" data-name="Path 11" class="cls-1" d="M83.4-150h33.2v93q0,23.4-16.7,40.2T59.8,0H16.6V-150H50V-16.6H66.6a16.039,16.039,0,0,0,11.9-5,16.3,16.3,0,0,0,4.9-11.8ZM150,0V-150h66.8a31.78,31.78,0,0,1,23.4,9.9,32.269,32.269,0,0,1,9.8,23.5v83.2a32.269,32.269,0,0,1-9.8,23.5A31.78,31.78,0,0,1,216.8,0Zm33.4-16.6H200a16.039,16.039,0,0,0,11.9-5,16.3,16.3,0,0,0,4.9-11.8v-83.2a16.2,16.2,0,0,0-4.9-11.9,16.2,16.2,0,0,0-11.9-4.9H183.4Z" transform="translate(166.607 225.4)"/>
+</svg>

@@ -6,9 +6,11 @@ body {
     padding: 0;
     box-sizing: border-box;
     height: 100vh;
+    width: 100vw;
     background: url(../assets/header.jpg) no-repeat center center fixed;
-    background-position: center top;
-	background-size:cover;font-family: "Quicksand", sans-serif;
+    /* background-position: center top; */
+    /* background-size:cover; */
+    font-family: "Quicksand", sans-serif;
     font-size: 62.5%;
 }
 
@@ -157,6 +159,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    /* background: url(../assets/header.jpg) no-repeat center center fixed; */
 }
 
 .background h1 {

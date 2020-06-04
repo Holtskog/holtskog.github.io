@@ -6,10 +6,8 @@ body {
     padding: 0;
     box-sizing: border-box;
     height: 100vh;
-    width: 100vw;
-    background: url(../assets/header.jpg) no-repeat center center fixed;
-    /* background-position: center top; */
-    /* background-size:cover; */
+    background: url(../assets/header.jpg) no-repeat center top fixed;
+    background-size:cover;
     font-family: "Quicksand", sans-serif;
     font-size: 62.5%;
 }
@@ -109,40 +107,40 @@ body {
 }
 
 .navTrigger i:nth-child(1) {
-    -webkit-animation: outT 0.8s backwards;
-    animation: outT 0.8s backwards;
+    -webkit-animation: outT 0.5s backwards;
+    animation: outT 0.5s backwards;
     -webkit-animation-direction: reverse;
     animation-direction: reverse;
 }
 
 .navTrigger i:nth-child(2) {
     margin: 5px 0;
-    -webkit-animation: outM 0.8s backwards;
-    animation: outM 0.8s backwards;
+    -webkit-animation: outM 0.5s backwards;
+    animation: outM 0.5s backwards;
     -webkit-animation-direction: reverse;
     animation-direction: reverse;
 }
 
 .navTrigger i:nth-child(3) {
-    -webkit-animation: outBtm 0.8s backwards;
-    animation: outBtm 0.8s backwards;
+    -webkit-animation: outBtm 0.5s backwards;
+    animation: outBtm 0.5s backwards;
     -webkit-animation-direction: reverse;
     animation-direction: reverse;
 }
 
 .navTrigger.active i:nth-child(1) {
-    -webkit-animation: inT 0.8s forwards;
-    animation: inT 0.8s forwards;
+    -webkit-animation: inT 0.5s forwards;
+    animation: inT 0.5s forwards;
 }
 
 .navTrigger.active i:nth-child(2) {
-    -webkit-animation: inM 0.8s forwards;
-    animation: inM 0.8s forwards;
+    -webkit-animation: inM 0.5s forwards;
+    animation: inM 0.5s forwards;
 }
 
 .navTrigger.active i:nth-child(3) {
-    -webkit-animation: inBtm 0.8s forwards;
-    animation: inBtm 0.8s forwards;
+    -webkit-animation: inBtm 0.5s forwards;
+    animation: inBtm 0.5s forwards;
 }
 
 .affix {
@@ -159,7 +157,6 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* background: url(../assets/header.jpg) no-repeat center center fixed; */
 }
 
 .background h1 {
@@ -224,6 +221,8 @@ body {
     flex-wrap: wrap;
     align-content: space-around;
     justify-content: center;
+    background-color: black;
+    padding-top: 2vh;
     /* align-items: center; */
 }
 
@@ -291,6 +290,15 @@ body {
     }
     .nav div.media_button {
         display: block;
+    }
+    .footer {
+        padding-top: 0;
+    }
+}
+
+@media screen and (max-width:375px) {
+    html, body {
+        background: url(../assets/header-mobile.png) no-repeat center top fixed;
     }
 }
 

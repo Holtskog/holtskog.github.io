@@ -311,6 +311,7 @@ body {
 
     .content-bg {
         background: url(../assets/header-mobile.png) no-repeat center top fixed;
+        background-size: cover;
     }
 
     .content, .content * {
